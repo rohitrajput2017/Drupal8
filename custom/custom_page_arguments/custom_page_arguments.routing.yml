@@ -1,0 +1,8 @@
+custom_page_arguments.count:
+  path: '/custom/page/{count}' 
+  defaults: 
+    _controller: '\Drupal\custom_page_arguments\Controller\custompageargumentsController::CustomPageArguments' 
+    _title: 'My Custom Page With Arguments' 
+
+  requirements: 
+    _permission: 'access content'

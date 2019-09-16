@@ -1,0 +1,7 @@
+custom_form.form:
+ path: '/custom/page/form/myform'
+ defaults:
+   _title: 'Application form'
+   _form: '\Drupal\custom_form\Form\ResumeForm'
+ requirements:
+   _permission: 'access content'

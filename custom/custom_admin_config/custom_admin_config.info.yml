@@ -1,0 +1,6 @@
+name: Custom admin config 
+description: 'Provides a custom admin config functionality' 
+configure: custom_admin_config.settings_form
+type: module 
+core: 8.x 
+package: Custom
